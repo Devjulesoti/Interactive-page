@@ -1,5 +1,6 @@
 body{
-    max-width: 480px;
+    min-width: 320px;
+   
 }
 main{
     background-color: black;
@@ -8,15 +9,21 @@ main{
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    padding-top: 70px;
+    
     
 }
 .container{
     background-color: rgb(38, 42, 52);
-    width: 50%;
+    width: 300px;
     padding: 10px 30px 20px 30px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
+    
 }
 
 img{
@@ -43,8 +50,9 @@ p{
 }
 .ratings{
     display: flex;
-   align-content: space-between;
+    align-content: space-between;
     justify-content: center;
+   
     
 }
 .ratings p{
@@ -52,6 +60,7 @@ p{
     margin-left: 12px;
     padding: 10px 13px 10px 13px;
     border-radius: 20px;
+    font-size: 11px;
 }
 .submit-btn{
     background-color: rgb(251, 117, 18);
